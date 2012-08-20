@@ -1,0 +1,45 @@
+
+/* ==========================================================================
+   Section comment block
+   ========================================================================== */
+
+/* Sub-section comment block
+   ========================================================================== */
+
+/**
+ * Short description using Doxygen-style comment format
+ *
+ * Long description first sentence starts here and continues on this line for a
+ * while finally concluding here at the end of this paragraph.
+ *
+ * The long description is ideal for more detailed explanations and
+ * documentation. It can include example HTML, URLs, or any other information
+ * that is deemed necessary or useful.
+ *
+ * @tag This is a tag named 'tag'
+ *
+ * @todo This is a todo statement that describes an atomic task to be completed
+ *   at a later date. It wraps after 80 characters and following lines are
+ *   indented by 2 spaces.
+ */
+
+/* Basic comment */
+
+
+/* ==========================================================================
+   CSS Gradients
+   ========================================================================== */
+
+/* Firefox v3.6+ */
+background-image:-moz-linear-gradient(50% 0% -90deg,rgb(38,201,255) 0%,rgb(0,105,140) 100%);
+/* safari v4.0+ and by Chrome v3.0+ */
+background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(38,201,255)),color-stop(1, rgb(0,105,140)));
+/* Chrome v10.0+ and by safari nightly build*/
+background-image:-webkit-linear-gradient(-90deg,rgb(38,201,255) 0%,rgb(0,105,140) 100%);
+/* Opera v11.10+ */
+background-image:-o-linear-gradient(-90deg,rgb(38,201,255) 0%,rgb(0,105,140) 100%);
+/* IE v10+ */
+background-image:-ms-linear-gradient(-90deg,rgb(38,201,255) 0%,rgb(0,105,140) 100%);
+background-image:linear-gradient(-90deg,rgb(38,201,255) 0%,rgb(0,105,140) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff26c9ff,endColorstr=#ff00698c,GradientType=0)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff26c9ff,endColorstr=#ff00698c,GradientType=0);
